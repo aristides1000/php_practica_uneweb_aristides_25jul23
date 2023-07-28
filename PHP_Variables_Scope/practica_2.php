@@ -14,4 +14,8 @@
 
   //Usar la variable x fuera de la función generará un error
   echo "<p>La variable x fuera de la función es: $x</p>";
+
+  /*
+    Puede tener variables locales con el mismo nombre en diferentes funciones, porque las variables locales solo son reconocidas por la función en la que se la declaran.
+  */
 ?>
